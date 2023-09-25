@@ -16,4 +16,100 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	font-family: 'Source Sans 3', sans-serif;
+	color: #bdc3c7;
+}
+
+ul, h1 
+{
+	font-family: 'Montserrat', sans-serif;
+	color: whitesmoke;
+}
+
+.profil
+{
+	width: 300px;
+	background-color: #31363b;
+	margin: 30px auto;
+	box-shadow: 5px 5px 10px gray;
+	position: relative;
+}
+
+img
+{
+	width: 100%;
+	
+}
+
+.portfolio
+{
+	width: 100%;
+	border-top: .5px solid #bdc3c7;
+	border-bottom: .5px solid #bdc3c7;
+}
+
+.facebook
+{
+	border-right: .5px solid #bdc3c7;
+}
+
+.portfolio a:hover
+{
+	background-color: #e74c3c;
+}
+
+.twitter, .facebook
+{
+	width: 50%;
+}
+
+.twitter a:hover
+{
+	background-color: #1da1f2;
+}
+
+.facebook a:hover
+{
+	background-color: #3b5998;
+}
+.logo
+{
+	background-color: #b92e81;
+	border-radius: 50%;
+	width: 50px;
+	position: absolute;
+	top: 175px;
+	right:25px; 
+}
+
+ul
+{
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.obsah
+{
+	padding: 30px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #bdc3c7;
+	display: block;
+	margin; 0;
+	padding: 10px;
+}
+
+li
+{
+	display: inline-block;
+	text-align: center;
+	
+}
+
+.odkazy
+{
+	padding: 0;
 }
